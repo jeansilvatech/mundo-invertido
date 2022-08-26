@@ -20,7 +20,7 @@ btnSubscribe.addEventListener('click', async function(){
         inscrito.style.display = 'flex';
     } else{
     const subscriptionId = await subscribeToHellfireClub(subscription);
-    inscrito.innerHTML = `Agora você faz parte do Clube de D&D! Seja bem-vindo ${txtName.value}!`;
+    inscrito.innerHTML = `Agora você faz parte do Clube de D&D! Seja bem-vindo(a) ${txtName.value}!`;
     txtName.value = ''
     txtEmail.value = ''
     txtLevel.value = ''
